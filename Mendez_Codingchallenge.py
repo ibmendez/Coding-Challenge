@@ -42,7 +42,7 @@ class UserInfo():
             gender_entry.delete(0,END)
 
 
-        print(info_dict)
+        
 
         
 
@@ -63,7 +63,7 @@ class UserInfo():
                 table.delete(user_id)
                 delete_message.grid(row= '2', column= '1')  
                 info_dict.pop(user_id)
-                print(info_dict)
+                
                 id_entry.delete(0,END)
         except:    
             delete_label_message.set('ERROR')
